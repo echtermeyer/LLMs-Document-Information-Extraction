@@ -1,0 +1,10 @@
+Extract Dictionary("subject", "sender", "persons", "companies", "dates", "action", "deadline", "priority", "country", "currency", "language) as JSON.
+Each extracted field has attribute as key and answer as value.
+"dates" value is a dictionary with date as key and description as value.
+Output each numeric value as string.
+If value cannot be extracted use "NotAvail".
+Extract priority as ("low" / "medium" / "high").
+Extract all dates in YYYY-MM-DD, ISO-8601 format.
+Extract "country" in ISO-3166 format.
+Extract "currency" in ISO-4217 format. 
+Extract "language" in ISO-639-1 format. 
